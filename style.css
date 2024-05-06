@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1, #page2, #page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+
+.move {
+    background-color: #D9FF06;
+    display: flex;
+    overflow: hidden;
+    padding: 2vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 2vw 1.5vw;
+    gap: 3vw;
+    flex-shrink: 0;
+    transform: translateX(-100%);
+}
+
+.container h1 {
+    font-size: 10vh;
+    word-spacing: 1vw;
+}
+
+.container img {
+    height: 4.5vw;
+}
